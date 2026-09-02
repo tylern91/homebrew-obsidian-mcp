@@ -19,30 +19,30 @@ class ObsidianMcp < Formula
   on_macos do
     on_arm do
       # darwin-arm64 (macOS, Apple Silicon)
-      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.1.0/obsidian-mcp-v0.1.0-darwin-arm64.tar.gz"
-      sha256 "2c46420cd08c26433add660f1e0d6e5c82c50cf9d8acb833f394214f9340ce60"
-      version "0.1.0"
+      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.2.0/obsidian-mcp-v0.2.0-darwin-arm64.tar.gz"
+      sha256 "1a9fa8aef4e8ff47fe4d29d57e6d74f88c3bef9dad1b50c3b152fca8e59ddf10"
+      version "0.2.0"
     end
     on_intel do
       # darwin-amd64 (macOS, Intel)
-      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.1.0/obsidian-mcp-v0.1.0-darwin-amd64.tar.gz"
-      sha256 "5d7658a5d8268da22418b967fc2ab5a908e61437ae9adf817619f73dc1b20727"
-      version "0.1.0"
+      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.2.0/obsidian-mcp-v0.2.0-darwin-amd64.tar.gz"
+      sha256 "b0e6eb3a6888b630c6477bcdd9b2e2ac024669a888a908c3dc746445871c3acd"
+      version "0.2.0"
     end
   end
 
   on_linux do
     on_intel do
       # linux-amd64 (Linux, Intel/AMD 64-bit)
-      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.1.0/obsidian-mcp-v0.1.0-linux-amd64.tar.gz"
-      sha256 "e9eab87a80922d7a2981736b4a2afe13ec28c949a7f4d29f4219798c0f6ebb7e"
-      version "0.1.0"
+      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.2.0/obsidian-mcp-v0.2.0-linux-amd64.tar.gz"
+      sha256 "36c5b0716c238a78007674c3ecbaebf9d45e07a394d020e00f1bb061d4885682"
+      version "0.2.0"
     end
     on_arm do
       # linux-arm64 (Linux, arm64)
-      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.1.0/obsidian-mcp-v0.1.0-linux-arm64.tar.gz"
-      sha256 "0e1fc279ba0847c51b3c2838344b7e4e1ec747091d321b8c51538c9d8c5e9b6e"
-      version "0.1.0"
+      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.2.0/obsidian-mcp-v0.2.0-linux-arm64.tar.gz"
+      sha256 "be0be49b2af518626f3f0391a16cbd8bced6e5b3c1dbb75456381b1a93209158"
+      version "0.2.0"
     end
   end
 
