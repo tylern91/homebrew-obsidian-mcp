@@ -19,30 +19,30 @@ class ObsidianMcp < Formula
   on_macos do
     on_arm do
       # darwin-arm64 (macOS, Apple Silicon)
-      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.3.4/obsidian-mcp-v0.3.4-darwin-arm64.tar.gz"
-      sha256 "d3b9ba3fb4a27cb32a68d9f9a5dd1b9a719c29e2eb120f3accbb8d1d5cc26e55"
-      version "0.3.4"
+      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.4.0/obsidian-mcp-v0.4.0-darwin-arm64.tar.gz"
+      sha256 "56e5db4a15e89c88a5cf98f1bb3cb0692b413591a3804886080787d7808553ff"
+      version "0.4.0"
     end
     on_intel do
       # darwin-amd64 (macOS, Intel)
-      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.3.4/obsidian-mcp-v0.3.4-darwin-amd64.tar.gz"
-      sha256 "f16ce0842c2a29b68be55492fb68d621c69e628e4a930a97e5a594d6b2bee0d9"
-      version "0.3.4"
+      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.4.0/obsidian-mcp-v0.4.0-darwin-amd64.tar.gz"
+      sha256 "96bfa37df6b8c32e091556c4436a870604594ae786932a41d260642b8b64db43"
+      version "0.4.0"
     end
   end
 
   on_linux do
     on_intel do
       # linux-amd64 (Linux, Intel/AMD 64-bit)
-      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.3.4/obsidian-mcp-v0.3.4-linux-amd64.tar.gz"
-      sha256 "f75ad20c032cbf90a5ad79b9c87e6684a5b25dabc8bc871ab88f44ad0dd735f4"
-      version "0.3.4"
+      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.4.0/obsidian-mcp-v0.4.0-linux-amd64.tar.gz"
+      sha256 "556037a98838dad1dd95240dc8c7bcb5a6ef3ed1f5f30a7d359bacac9dd766e2"
+      version "0.4.0"
     end
     on_arm do
       # linux-arm64 (Linux, arm64)
-      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.3.4/obsidian-mcp-v0.3.4-linux-arm64.tar.gz"
-      sha256 "65d9f794bfc142e8224dcd75f974b7c92ae27b6f873ffa281764dbfae3f3622e"
-      version "0.3.4"
+      url "https://github.com/tylern91/obsidian-mcp-server/releases/download/v0.4.0/obsidian-mcp-v0.4.0-linux-arm64.tar.gz"
+      sha256 "5ff65ca37335940895bf7010794601dd28a0e295bdfefa6ea10c47f3f6e0044f"
+      version "0.4.0"
     end
   end
 
